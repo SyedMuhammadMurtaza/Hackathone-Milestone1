@@ -1,0 +1,72 @@
+body{
+    padding: 20px;
+}
+
+.secPersonalInfo{
+    display: flex;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+img.myImg{
+    width: 150px;
+    height: 150px;
+}
+.name, .designation, .intro {
+    padding: 9px 9px 0 17px;
+    margin: 0;
+}
+
+.secDetails{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.paraDetails{
+    font-size: 17px;
+}
+
+.secEducation{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#secSkills{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.divParaSkill{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.paraSkills{
+    background-color: #5e5e5e;
+    padding: 12px;
+    color: #fff
+}
+
+.secExperience{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-top: 10px;
+}
+#toggle-button{
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+    margin-top:10px;
+}
